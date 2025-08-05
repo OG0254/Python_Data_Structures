@@ -13,8 +13,13 @@ patients = {
 }
 
 # Access data
-print("Cardiologist on duty:", staff[101]['name'])  # Dr. Smith
-print("John's allergies:", patients["P881"]["allergies"])  # ['Penicillin']
+print("Cardiologist on duty:", staff[202]['name'])  
+print("Maria's allergies:", patients["P882"]["allergies"])  
 
 # Add new patient
 patients["P883"] = {"name": "Alex Kim", "allergies": ["Latex"], "ward": "ER"}
+patients["P884"] = {"name": "Jojo Obienje", "allergies": ["Latexology"], "ward": "ER"}
+patients["P885"] = {"name": "Kasongo", "allergies": ["Truth"], "ward": "ER"}
+staff[304:] = {"name": "Dr. Rahim", "role": "Cardiologist", "station": "Lab 4"}
+print("All patients are", patients)
+print("All staff are", staff)
