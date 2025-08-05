@@ -7,7 +7,10 @@ emergency_exits = (
 )
 
 # Access data
-print("Exit near ICU:", emergency_exits[2][0])  # ICU Wing
+print("Exit near ICU:", emergency_exits[2][0]) # ICU Wing
+print("Main Lobby:", emergency_exits[0][0]) # Main Lobby
+print("ER Back:", emergency_exits[1][0]) # ER Back
+
 
 # Try to modify (will fail)
 try:
